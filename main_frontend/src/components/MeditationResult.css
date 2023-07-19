@@ -1,0 +1,32 @@
+.result-container {
+  max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Add transparency to the form background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-container h2 {
+    margin-bottom: 10px;
+  }
+  .result-container ul{
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+    text-align-last: justify;
+  }
+  
+  .result-container p {
+    white-space: pre-wrap; /* Preserve line breaks in the generated text */
+  }
+  
+  .result-container button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px
+  }  
+   
+  ul{
+    padding: 5px;
+  }
